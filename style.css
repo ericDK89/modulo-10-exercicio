@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  max-width: 1120px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 1rem;
+
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+
+  margin-top: 1rem;
+}
+
+input {
+  width: 300px;
+
+  padding: 0.5rem 0.25rem;
+
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+
+button {
+  padding: 0.5rem 0.25rem;
+  cursor: pointer;
+}
